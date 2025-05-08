@@ -6,6 +6,7 @@ import Marquee from './components/Marquee'
 import About from './components/About'
 import Eyes from './components/Eyes'
 import Feature from './components/Feature'
+import Cards from './components/Cards'
 export default function App() {
   return (
     <div className='w-full text-white m-h-screen bg-zinc-900'>
@@ -15,6 +16,7 @@ export default function App() {
       <About/>
       <Eyes/>
       <Feature/>
+      <Cards/>
     </div>
   )
 }
